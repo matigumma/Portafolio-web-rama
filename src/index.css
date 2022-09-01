@@ -12,6 +12,15 @@ body {
     font-family: 'Playfair Display', serif;
     background: 'url(/img/image.png)';
 } 
+.bgh1{
+    background: url(./img/banner.jpg) center center/cover;
+    background-attachment: fixed;
+}
+
+.navbar{
+    background: url(./img/image.png) center center/cover;
+    filter:opacity(.9)
+}
 
 .name{
     font-family: 'Righteous', cursive;

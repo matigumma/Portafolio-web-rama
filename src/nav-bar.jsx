@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   
 return(
-<div className='bg-slate-700 text-black text-xl' >
+<div className='bg-primary text-dark text-lg pr-5' >
    <ul className="flex flex-row gap-2 justify-end">
-    <li className=" bg-slate-700 text-white rounded-xl" ><Link className="p-5  hover:scale-105 duration-75 " to="#">Home</Link></li>
-    <li className="p-5 bg-slate-700 text-white hover:scale-105 duration-75 rounded-xl" ><Link to="#">About Me</Link></li>
-    <li className="p-5 bg-slate-700 text-white hover:scale-105 duration-75 rounded-xl" ><Link to="#">Contact Me</Link></li>
-    <li className="p-5 bg-slate-700 text-white hover:scale-105 duration-75 rounded-xl" ><Link to="/briefcase">Briefcase</Link></li>
+    <li className="p-5 hover:scale-105 hover:duration-75 hover:underline hover:underline-offset-8" ><Link to="/">Home</Link></li>
+    <li className="p-5 hover:scale-105 hover:duration-75 hover:underline hover:underline-offset-8" ><Link to="/aboutme">About Me</Link></li>
+    <li className="p-5 hover:scale-105 hover:duration-75 hover:underline hover:underline-offset-8" ><Link to="/contactme">Contact Me</Link></li>
+    <li className="p-5 hover:scale-105 hover:duration-75 hover:underline hover:underline-offset-8" ><Link to="/briefcase">Briefcase</Link></li>
    </ul>
 </div>
 )
